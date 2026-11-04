@@ -1,0 +1,58 @@
+export const cocktails = [
+	{
+		name: 'Коктейль Персиковый',
+		imageUrl: '/assets/images/products/cocktails/peach_cocktail.avif',
+		categoryId: 3,
+		price: 230,
+		desc: 'Сочный, спелый персик и приятная свежесть мороженого',
+	},
+	{
+		name: 'Молочный коктейль Фисташка',
+		imageUrl: '/assets/images/products/cocktails/pistachio_milkshake.avif',
+		categoryId: 3,
+		price: 230,
+		desc: 'Сочетание нежности, сливочной текстуры и тонкого вкуса фисташки',
+	},
+	{
+		name: 'Молочный коктейль Ежевика-малина',
+		imageUrl: '/assets/images/products/cocktails/blackberry_raspberry_milkshake.avif',
+		categoryId: 3,
+		price: 230,
+		desc: 'Сливочная прохлада классического молочного коктейля с добавлением лесных ягод',
+	},
+	{
+		name: 'Молочный коктейль Пина Колада',
+		imageUrl: '/assets/images/products/cocktails/pina_colada_milkshake.avif',
+		categoryId: 3,
+		price: 230,
+		desc: 'Тропическое сочетание кокоса и ананаса в нежном милкшейке',
+	},
+	{
+		name: 'Клубничный молочный коктейль 👶',
+		imageUrl: '/assets/images/products/cocktails/strawberry_milkshake.avif',
+		categoryId: 3,
+		price: 230,
+		desc: 'Не важно, какое время года на улице, этот коктейль с клубничным сиропом вернет вас в лето с одного глотка',
+	},
+	{
+		name: 'Шоколадный молочный коктейль',
+		imageUrl: '/assets/images/products/cocktails/chocolate_milkshake.avif',
+		categoryId: 3,
+		price: 230,
+		desc: 'Это шок! Шоколадный молочный коктейль со сливочным мороженым и фирменным какао',
+	},
+	{
+		name: 'Молочный коктейль с печеньем Орео',
+		imageUrl: '/assets/images/products/cocktails/milkshake_with_oreo_cookies.avif',
+		categoryId: 3,
+		price: 230,
+		desc: 'Как вкуснее есть печенье? Его лучше пить! Попробуйте молочный коктейль с мороженым и дробленым печеньем «Орео»',
+	},
+	{
+		name: 'Классический молочный коктейль 👶',
+		imageUrl: '/assets/images/products/cocktails/classic_milkshake.avif',
+		categoryId: 3,
+		price: 189,
+		desc: 'Это классика: молоко, мороженое и ничего лишнего',
+	},
+]

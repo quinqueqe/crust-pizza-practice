@@ -1,0 +1,28 @@
+.contacts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	h2 {
+		padding-bottom: 50px;
+		font-size: 35px;
+	}
+
+
+	&-info {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	li {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,22 @@
+.aboutUs {
+	padding-top: 190px;
+	
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+
+	&-top {
+		padding-bottom: 5px;
+		text-align: center;
+	}
+
+	&-bot {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+
+		p {
+			font-weight: 700;
+		}
+	}
+}

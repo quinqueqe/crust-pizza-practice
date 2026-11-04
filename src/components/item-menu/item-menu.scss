@@ -1,0 +1,21 @@
+.item-menu {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+	img {
+		width: 292px;
+		height: 292px;
+	}
+
+	p {
+		padding-bottom: 10px;
+	}
+
+	b {
+		font-weight: 900;
+	}
+}

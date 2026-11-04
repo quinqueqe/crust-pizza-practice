@@ -1,0 +1,58 @@
+export const coffee = [
+	{
+		name: 'Айс капучино',
+		imageUrl: '/assets/images/products/coffee/ice_cappuccino.avif',
+		categoryId: 4,
+		price: 179,
+		desc: 'Освежающий холодный кофе с порцией эспрессо и пломбиром',
+	},
+	{
+		name: 'Карамельный капучино',
+		imageUrl: '/assets/images/products/coffee/сoffee_сaramel_сappuccino.avif',
+		categoryId: 4,
+		price: 179,
+		desc: 'Классический капучино с молочной пенкой и карамельным сиропом',
+	},
+	{
+		name: 'Кофе Кокосовый латте',
+		imageUrl: '/assets/images/products/coffee/coffee_coconut_latte.avif',
+		categoryId: 4,
+		price: 179,
+		desc: 'Горячий латте с кокосовым сиропом',
+	},
+	{
+		name: 'Кофе Американо',
+		imageUrl: '/assets/images/products/coffee/caffe_americano.avif',
+		categoryId: 4,
+		price: 139,
+		desc: 'Горячий кофе для ценителей чистого вкуса',
+	},
+	{
+		name: 'Кофе Латте',
+		imageUrl: '/assets/images/products/coffee/caffe_latte.avif',
+		categoryId: 4,
+		price: 179,
+		desc: 'Идеально сбалансированное сочетание кофе, увеличенной порции молока и нежнейшей пенки',
+	},
+	{
+		name: 'Кофе Капучино',
+		imageUrl: '/assets/images/products/coffee/cappuccino_coffee.avif',
+		categoryId: 4,
+		price: 179,
+		desc: 'Легендарный рецепт кофе: эспрессо, горячее молоко и плотная молочная пенка',
+	},
+	{
+		name: 'Кофе Ореховый латте',
+		imageUrl: '/assets/images/products/coffee/coffee_hazelnut_latte.avif',
+		categoryId: 4,
+		price: 179,
+		desc: 'Горячий латте с сиропом со вкусом фундука',
+	},
+	{
+		name: 'Капучино Яблочный пирог',
+		imageUrl: '/assets/images/products/coffee/cappuccino_apple_pie.avif',
+		categoryId: 4,
+		price: 169,
+		desc: 'Классический капучино с молочной пенкой и ярким сиропом — напоминает по вкусу домашнюю шарлотку',
+	},
+]

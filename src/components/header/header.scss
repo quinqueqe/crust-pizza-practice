@@ -1,0 +1,52 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 1000;
+
+    padding-bottom: 40px;
+
+
+
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+    &-logo {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+
+        img {
+            width: 40px;
+            height: 40px;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        p {
+            color: rgb(128, 128, 128);
+        }
+    }
+
+    &-nav {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+
+        &__link {
+            font-size: 20px;
+
+            &-active {
+                font-size: 20px;
+                color: orange;
+            }
+        }
+    }
+}
