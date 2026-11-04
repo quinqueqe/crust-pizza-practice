@@ -1,9 +1,8 @@
 import './reservationForm.scss'
 import { Link } from 'react-router'
 
-type Props = {}
 
-const ReservationForm = (props: Props) => {
+const ReservationForm = () => {
 	const reservationDb = [
 		{
 			title: 'Имя',
