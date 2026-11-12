@@ -1,6 +1,6 @@
 .aboutUs {
-	padding-top: 190px;
-	
+	padding-top: 100px;
+
 	display: flex;
 	flex-direction: column;
 	gap: 60px;
@@ -17,6 +17,10 @@
 
 		p {
 			font-weight: 700;
+		}
+
+		span {
+			color: orange;
 		}
 	}
 }

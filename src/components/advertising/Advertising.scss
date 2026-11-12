@@ -1,0 +1,228 @@
+.advertising {
+
+    &-cards {
+        display: flex;
+        gap: 58px;
+        flex-wrap: wrap;
+        align-items: center;
+
+        &__item {
+
+
+            &--one {
+                width: 60%;
+            }
+
+            &--two {
+                width: 35%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+.bonus-banner {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 40px;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #FF6B00 0%, #FF8C42 100%);
+    color: #fff;
+    box-shadow: 0 16px 40px rgba(255, 107, 0, 0.35);
+    flex-wrap: wrap;
+}
+
+.bonus-banner__badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 140px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    color: #FF6B00;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.bonus-banner__big {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.bonus-banner__sub {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.bonus-banner__content {
+    flex: 1 1 300px;
+}
+
+.bonus-banner__content h3 {
+    margin: 0 0 8px;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.bonus-banner__content p {
+    margin: 0 0 16px;
+    font-size: 15px;
+    opacity: 0.92;
+}
+
+.bonus-banner__btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #fff;
+    color: #FF6B00;
+    font-weight: 800;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.bonus-banner__btn:hover {
+    transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+    .bonus-banner {
+        padding: 24px;
+        text-align: center;
+    }
+
+    .bonus-banner__badge {
+        margin: 0 auto;
+    }
+}
+
+
+
+.two-pizzas {
+    padding: 40px;
+    text-align: center;
+    background: #FFF8F0;
+    border: 2px dashed #FF6B00;
+    border-radius: 24px;
+}
+
+.two-pizzas__title {
+    margin: 0 0 8px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #1A1A1A;
+}
+
+.two-pizzas__sub {
+    margin: 0 0 28px;
+    color: #6B6B6B;
+    font-size: 15px;
+}
+
+.two-pizzas__images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.two-pizzas__item {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.two-pizzas__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.two-pizzas__item--gift {
+    outline: 4px solid #FF6B00;
+    outline-offset: 4px;
+}
+
+.two-pizzas__price {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 12px;
+    background: #fff;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+
+.two-pizzas__label {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-8deg);
+    padding: 6px 16px;
+    background: #FF6B00;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.two-pizzas__plus {
+    font-size: 40px;
+    font-weight: 900;
+    color: #FF6B00;
+}
+
+.two-pizzas__btn {
+    display: inline-block;
+    padding: 16px 36px;
+    background: #FF6B00;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.two-pizzas__btn:hover {
+    background: #E55F00;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 640px) {
+    .two-pizzas {
+        padding: 24px;
+    }
+
+    .two-pizzas__item {
+        width: 140px;
+        height: 140px;
+    }
+
+    .two-pizzas__title {
+        font-size: 22px;
+    }
+}

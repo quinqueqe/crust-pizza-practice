@@ -1,6 +1,6 @@
 import './footer.scss'
 import logo from '../../assets/favicon.ico'
-import arrowImg from '/public/assets/images/arrow-top.png'
+import arrowImg from '../../assets/arrow-top.png'
 
 export const Footer = () => {
 	const footerDb = [

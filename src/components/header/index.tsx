@@ -1,6 +1,6 @@
 import './header.scss'
 import logo from '../../assets/favicon.ico'
-import { Link, useLocation } from 'react-router'
+import { Link, useLocation } from 'react-router-dom'
 
 const Header = () => {
 	const location = useLocation()

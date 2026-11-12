@@ -1,5 +1,5 @@
 import './reservationForm.scss'
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 
 const ReservationForm = () => {
